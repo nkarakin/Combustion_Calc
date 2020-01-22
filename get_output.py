@@ -268,7 +268,7 @@ def get_output(fuel, air, flue, comb):
             print('\n')
             print('Calculation for lambda < 1 assumes no formation of CO which is far from reality!')
         if fuel_massfrac[comp.index('O2')] != 0:
-            #print('\n')
+            print('\n')
             print('You have specified Oxygen in fuelgas. The calculation takes this Oxygen into account.')
             
         print('\n')
