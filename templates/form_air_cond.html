@@ -1,0 +1,34 @@
+
+<div class="green_color"><b>Humid Air Calculation</b></div>
+
+    <div class="border">
+        <div id="air_cond_H2O_Descr">H2O-Content in Humid Air</div>
+        {{form_air_cond.air_cond_H2O(id="air_cond_H2O")}} <br />
+        <div class="alert" id="air_cond_H2O_Alert">alert_text</div>
+
+        <div>Choose how you want to define H2O-Content in air</div>
+        {{form_air_cond.air_cond_selector(id="air_cond_selector")}} <br />
+        <div class="alert" id="air_cond_selector_Alert">alert_text</div>
+
+        <div class="contHor">
+            <div class="box">
+              <div>Pressure[Pa]</div>
+              {{form_air_cond.air_cond_p1(id = "air_cond_p1")}}
+              <div class="alert" id="air_cond_p1_Alert">alert_text</div>
+            </div>
+      
+            <div class="box">
+              <div>Temperature[K]</div>
+              {{form_air_cond.air_cond_t1(id = "air_cond_t1")}}
+              <div class="alert" id="air_cond_t1_Alert">alert_text</div>
+            </div>
+        </div>
+
+        {{form_air_cond.air_cond_val1(id = "air_cond_val1")}}
+        <div class="alert" id="air_cond_val1_Alert">H2O-Condensation-check</div>
+
+    </div>
+
+
+
+

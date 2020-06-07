@@ -1,0 +1,64 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px
+}
+
+.contVert {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: auto;
+  
+}
+
+
+.contVert_test {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: auto;
+  
+}
+
+.contHor {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  flex: auto;
+}
+
+.box {
+  flex: auto;
+}
+
+.green_color {
+  background-color: rgb(87, 129, 87);
+}
+
+.border {
+  border: 5px solid;
+  border-color: green;
+}
+.border_red {
+  border: 5px solid;
+  border-color: rgb(240, 7, 7);
+}
+
+.alert {
+  background-color: rgb(0, 255, 76);
+}
+
+
+.dataframe {
+  font-size: 8pt; 
+  text-align: right;
+}
+
+.after_modal_appended
+{  
+  position:relative;
+}
+
+.modal, .modal-backdrop {
+  position: absolute !important;
+}

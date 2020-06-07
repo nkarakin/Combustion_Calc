@@ -1,0 +1,32 @@
+
+  <div class="green_color"><b>Oxidation Gas Definition</b></div>
+
+  <div class="border">
+    <div id="oxgas_vector_Descr">Oxidation Gas Composition</div>
+    {{form_comb.oxgas_vector(id = "oxgas_vector", size = "50")}} <br />
+    <div class="alert" id="oxgas_vector_Alert">alert_text</div>
+  
+    <div>Choose how you want to define the Oxidation Gas</div>
+    {{form_comb.oxgas_selector(id = "oxgas_selector")}}
+    <div class="alert" id="oxgas_selector_Alert">alert_text</div>
+  </div>
+
+  <div class="border">
+    <div>Oxidation Gas Conditions</div>
+
+    <div class="contHor">
+      <div class="box">
+        <div>Pressure[Pa]</div>
+        {{form_comb.oxgas_p1(id = "oxgas_p1")}}
+        <div class="alert" id="oxgas_p1_Alert">alert_text</div>
+      </div>
+
+      <div class="box">
+        <div>Temperature[K]</div>
+        {{form_comb.oxgas_t1(id = "oxgas_t1")}}
+        <div class="alert" id="oxgas_t1_Alert">alert_text</div>
+      </div>
+    </div>
+
+  </div>
+
