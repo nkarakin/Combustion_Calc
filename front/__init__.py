@@ -1,5 +1,0 @@
-from front.process_air_cond1 import process_air_cond1
-from front.process_air_cond2 import process_air_cond2
-
-from front.process_comb1 import process_comb1
-from front.process_comb2 import process_comb2

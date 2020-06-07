@@ -1,9 +1,0 @@
-{% with messages = get_flashed_messages() %}
-    {% if messages %}
-        {% for message in messages %}
-            <h3>{{ message }}</h3>
-        {% endfor %}
-    {% endif %}
-{% endwith %}
-{{data | safe}}
-
